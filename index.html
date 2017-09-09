@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
+	</title>
+	<meta charset="utf-8">
+	<meta name="refresh" content="3">
+	<meta name="keywords" content="form">
+
+
+<link rel="stylesheet" type="text/css" href="index.css">
+<script type="text/javascript">
+	var $nome = null;
+	var $senha = null;
+function validacaoForm(){
+	var x = document.forms["formulario"]["usuario"]["senha"].value;
+	if (x == "") { alert("Preencha todos os campos"); return false;}
+	document.write(x);
+}
+
+
+</script>
+</head>
+
+<body id="all">
+	<div class="div1">
+		<img src="formulario.png">
+
+	</div>
+
+
+	<div class="div2">
+		<form name="formulario" action="/action_page_post.php" onsubmit="return validacaoForm()" method="post">
+			<label for="usuario"> Usuario</label><br>
+			<input type="text" name="usuario" required><br><br>
+			
+			<label for="senha"> Senha</label><br>
+			<input type="password" name="senha" required><br><br>
+			<input class ="btn" type="submit" name="btnsend"><br>
+				<script type="text/javascript">
+				
+
+			</script>
+		</form><br>
+	<div class="div3">
+<article>Todos os dados fornecidos pelo usuário estão a guardo do orgão proprietario, nenhum serviço prestado pela empresa de serviço digital sera publicado nos meios de comunicação</article>
+</div>
+
+	</div>
+	
+
+
+
+</body>
+
+</html>

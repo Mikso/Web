@@ -1,0 +1,26 @@
+#all{
+	background-color: ghostwhite;
+
+}
+.div1{
+	
+	text-align: center;
+
+}
+
+.div2{	
+	text-align: center; /* SERVE PARA ALINHAR O CONTEUDO DA DIV TB*/
+	background-color: gray;
+}
+
+.div3{
+	background-color: red;
+}
+
+.btn{
+	font-size: 25px;
+	font-family: Georgia, serif;
+	border-radius: 8px; /* Deixa as pontas mais circulares*/
+	text-shadow: 2px 1px 2px darkgoldenrod; /* WIDTH HEIGHT COR DA SOMBRA*/
+	background-color: white;
+}
